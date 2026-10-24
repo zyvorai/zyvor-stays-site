@@ -10,7 +10,7 @@ Public marketing site for Zyvor Stays. **Fictional data only.** Guests **pay at 
 
 [https://175-110-122-71.sslip.io:18443](https://175-110-122-71.sslip.io:18443)
 
-Self-signed lab TLS — your browser will warn once.
+Use the URL with **`:18443`** (plain `https://…sslip.io` is a different site). Self-signed lab TLS — your browser will warn once; choose Advanced → proceed.
 
 ## Honest limits
 

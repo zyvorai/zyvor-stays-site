@@ -4,45 +4,74 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Zyvor Stays — Somewhere extraordinary.</title>
-<meta name="description" content="Thoughtful places. Extraordinary days. Self-hosted travel booking by Zyvor AI Labs.">
+<meta name="description" content="Thoughtful places across India, neighbouring countries, and Europe. Self-hosted travel booking by Zyvor AI Labs. Fictional data only. Pay at property.">
 <link rel="canonical" href="https://zyvorai.github.io/zyvor-stays-site/">
 <meta property="og:title" content="Zyvor Stays — Somewhere extraordinary.">
 <meta property="og:description" content="Thoughtful places. Extraordinary days. Fictional data only. Pay at property.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zyvorai.github.io/zyvor-stays-site/">
-<meta property="og:image" content="https://zyvorai.github.io/zyvor-stays-site/assets/og.png">
+<meta property="og:image" content="https://zyvorai.github.io/zyvor-stays-site/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://zyvorai.github.io/zyvor-stays-site/assets/og.png">
+<meta name="twitter:image" content="https://zyvorai.github.io/zyvor-stays-site/assets/og.jpg">
+<meta name="theme-color" content="#0071e3">
 <link rel="icon" href="assets/stays.svg" type="image/svg+xml">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="./"><img src="assets/stays.svg" width="32" height="32" alt=""> zyvor<span>stays</span></a>
+  <a class="brand" href="./">
+    <img src="assets/stays.svg" width="32" height="32" alt="">
+    <span class="word">zyvor <em>stays</em></span>
+  </a>
   <nav>
+    <a href="#destinations">Destinations</a>
     <a href="#honesty">Honesty</a>
-    <a class="pill" href="https://175-110-122-71.sslip.io:18443/">Live demo :18443 ↗</a>
+    <a class="pill" href="https://175-110-122-71.sslip.io:18443/">Live demo ↗</a>
   </nav>
 </header>
 
 <section class="hero">
-  <div class="veil"></div>
-  <img class="bg" src="shots/hero.jpg" alt="">
+  <img class="bg" src="shots/hero.jpg" alt="" width="1800" height="1197">
+  <div class="veil" aria-hidden="true"></div>
   <div class="copy rise">
-    <img class="mark z-draw" src="assets/stays.svg" width="72" height="72" alt="">
-    <h1>Somewhere<br><em>extraordinary.</em></h1>
-    <p>Thoughtful places. Extraordinary days.</p>
+    <p class="brand-hero">
+      <img class="mark z-draw" src="assets/stays.svg" width="56" height="56" alt="">
+      <span>zyvor <em>stays</em></span>
+    </p>
+    <h1>Somewhere<br>extraordinary.</h1>
+    <p class="lede">Thoughtful places. Extraordinary days.</p>
     <div class="cta">
-      <a class="pill" href="https://175-110-122-71.sslip.io:18443/">Open live demo (port 18443)</a>
-      <a class="ghost" href="https://github.com/zyvorai/zyvor-stays-site">GitHub</a>
+      <a class="pill" href="https://175-110-122-71.sslip.io:18443/">Open live demo</a>
+      <a class="ghost" href="#destinations">Browse destinations</a>
     </div>
-    <p class="cert-note">Use the URL with <strong>:18443</strong> (plain https://…sslip.io is a different site). Lab TLS is self-signed — choose Advanced → proceed / continue.</p>
+  </div>
+</section>
+
+<section class="tip" aria-label="Demo access tip">
+  <p>Demo URL needs <strong>:18443</strong> — plain sslip.io is a different site. Lab TLS is self-signed; choose Advanced → proceed.</p>
+</section>
+
+<section class="destinations" id="destinations">
+  <div class="dest-head">
+    <span class="eyebrow">INSPIRED BY REAL PLACES</span>
+    <h2>India, neighbours, Europe.</h2>
+    <p>A fictional collection photographed against coasts, mountains, and cities you already dream about.</p>
+  </div>
+  <div class="strip" role="list">
+    <figure role="listitem"><img src="shots/goa.jpg" alt="" width="1400" height="1050" loading="lazy"><figcaption>Goa</figcaption></figure>
+    <figure role="listitem"><img src="shots/jaipur.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Jaipur</figcaption></figure>
+    <figure role="listitem"><img src="shots/kathmandu.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Kathmandu</figcaption></figure>
+    <figure role="listitem"><img src="shots/maldives.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Maldives</figcaption></figure>
+    <figure role="listitem"><img src="shots/lisbon.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Lisbon</figcaption></figure>
+    <figure role="listitem"><img src="shots/paris.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Paris</figcaption></figure>
+    <figure role="listitem"><img src="shots/positano.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Positano</figcaption></figure>
+    <figure role="listitem"><img src="shots/zermatt.jpg" alt="" width="1400" height="933" loading="lazy"><figcaption>Zermatt</figcaption></figure>
   </div>
 </section>
 
 <section class="band">
   <h2>Self-hosted hospitality software</h2>
-  <p>Guest discovery, trip boards, arrival plans and a calm host console — operated by you, with an Apple-inspired interface.</p>
+  <p>Guest discovery, trip boards, arrival plans, and a calm host console — operated by you, with an Apple-inspired interface in light and dark.</p>
 </section>
 
 <section class="honesty" id="honesty">
