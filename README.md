@@ -1,5 +1,7 @@
 # Zyvor Stays
 
+[Client overview (PDF)](docs/Zyvor-Stays-Client-Overview.pdf)
+
 **Thoughtful places. Extraordinary days.**
 
 Public marketing site for Zyvor Stays. **Fictional data only.** Guests **pay at property** in the current demo — this release does not process online payments. The application source is private; this repository holds website content only.
