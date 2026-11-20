@@ -10,7 +10,7 @@ Public marketing site for Zyvor Stays. **Fictional data only.** Guests **pay at 
 
 ## Trial and pricing
 
-30-day trial key, then a licence key (same model as the Zyvor Mac apps; soft enforcement, nothing is ever disabled). Proposed list prices, INR incl. 18% GST: single property ₹1,499 per month or ₹14,990 per year; Portfolio ₹999 per property per month or ₹9,990 per year, minimum 5 properties. Zyvor Stays is self-hosted server software (Docker, PostgreSQL): it has no Mac or Windows download. Request a trial key at sales@zyvor.dev.
+30-day trial key, then a licence key (same model as the Zyvor Mac apps; soft enforcement, nothing is ever disabled). List prices, INR incl. 18% GST: single property ₹1,499 per month or ₹14,990 per year; Portfolio ₹999 per property per month or ₹9,990 per year, minimum 5 properties. Zyvor Stays is self-hosted server software (Docker, PostgreSQL): it has no Mac or Windows download. Request a trial key at sales@zyvor.dev.
 
 ## Live demo
 
