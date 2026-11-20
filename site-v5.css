@@ -223,3 +223,17 @@ footer a{color:var(--blue)}
   .strip{grid-auto-columns:70vw}
   .brand-hero{font-size:18px}
 }
+
+.plans{padding:72px 6% 80px;max-width:60rem;margin:0 auto}
+.plans h2{font-size:clamp(28px,4vw,44px);letter-spacing:-.02em;margin:.2em 0 .4em;color:var(--ink)}
+.plans .eyebrow{color:var(--blue)}
+.plans-lede,.plans .fine{color:var(--muted);font-size:17px;line-height:1.6;max-width:42rem}
+.plans .fine{font-size:14px;margin-top:24px}
+.plans a{color:var(--blue)}
+.plan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:16px;margin-top:28px}
+.plan-grid article{background:var(--soft);border-radius:22px;padding:28px}
+.plan-grid h3{margin:0 0 8px;font-size:19px}
+.plan-grid .price{font-size:32px;font-weight:600;letter-spacing:-.02em;margin:0;color:var(--ink)}
+.plan-grid .price small{font-size:14px;font-weight:400;color:var(--muted)}
+.plan-grid .sub{color:var(--muted);font-size:14px;margin:8px 0 0}
+@media (prefers-color-scheme:dark){.plans h2,.plan-grid .price{color:#f5f5f7}.plan-grid article{background:#1d1d1f}}
