@@ -1,0 +1,31 @@
+# Zyvor Stays
+
+[Client overview (PDF)](docs/Zyvor-Stays-Client-Overview.pdf)
+
+**Thoughtful places. Extraordinary days.**
+
+Public marketing site for Zyvor Stays. **Fictional data only.** Guests **pay at property** in the current demo — this release does not process online payments. The application source is private; this repository holds website content only.
+
+![Zyvor Stays](docs/assets/readme-hero.jpg)
+
+## Trial and pricing
+
+30-day trial key, then a licence key (same model as the Zyvor Mac apps; soft enforcement, a commercial license is required for production use). List prices: single property ₹1,499 per month (about US$15 excl. tax outside India) or ₹14,990 per year (about US$151); Portfolio ₹999 per property per month (about US$10) or ₹9,990 per year (about US$101), minimum 5 properties. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: sales@zyvor.dev. Monthly plans are invoiced until Razorpay Subscriptions open. [Buy](https://zyvor.dev/buy). Zyvor Stays is self-hosted server software (Docker, PostgreSQL): it has no Mac or Windows download. Request a trial key at sales@zyvor.dev.
+
+## Live demo
+
+[https://175-110-122-71.sslip.io:18443](https://175-110-122-71.sslip.io:18443)
+
+Use the URL with **`:18443`** (plain `https://…sslip.io` is a different site). Self-signed lab TLS — your browser will warn once; choose Advanced → proceed.
+
+## Honest limits
+
+- Demonstration collection · all listings are fictional (**fictional data only**)
+- **Pay at property** · no online card capture in this foundation
+- Not a Booking.com or Airbnb product, partner feed or certified travel agency system
+
+## Contact
+
+sales@zyvor.dev · security@zyvor.dev
+
+© 2026 Zyvor AI Labs
